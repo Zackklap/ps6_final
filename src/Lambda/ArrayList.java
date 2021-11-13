@@ -138,7 +138,7 @@ public class ArrayList implements List {
             }
         }
         if(count>0)//flag pop-up
-            return true;
+            result= true;
         return result;
     }
 }

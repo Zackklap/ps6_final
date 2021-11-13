@@ -210,11 +210,12 @@ public class LLList implements List {
         boolean result = false;
         for ( int i = 0; i < this.length(); i++){//if the iteam at i is the thing looking fo change
             if (getItem(i) == item){
+                count++;
                 removeItem(i);
             }
         }
-        if(count<0)//flag pop-up
-            return true;
+        if(count>0)//flag pop-up
+            result= true;
         return result;
     }
 }

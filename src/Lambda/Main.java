@@ -13,5 +13,10 @@ public class Main{
         System.out.println(list1);
         System.out.println(list1.removeAll("x"));
         System.out.println(list1);
+        LLList list2 = new LLList(letters);
+        System.out.println(list2);
+        System.out.println(list2.removeAll("a"));
+        System.out.println(list2);
+        System.out.println(list2.removeAll("x"));
     }
 }
